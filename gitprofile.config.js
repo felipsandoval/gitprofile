@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'felipsandoval', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 8, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -45,18 +45,18 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Axians',
+      position: 'Application Developer',
+      from: 'October 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://axians.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Axians',
+      position: 'Video Technical Support Specialist',
+      from: 'May 2019',
+      to: 'Present',
+      companyLink: 'https://axians.com',
     },
   ],
   /* certifications: [
@@ -70,7 +70,7 @@ const config = {
   education: [
     {
       institution: 'Universidad Rey Juan Carlos',
-      degree: 'Multimedia Engineering Degree',
+      degree: 'BSc degree in Audiovisual Systems & Multimedia Engineering',
       from: '2015',
       to: '2022',
     },
@@ -79,18 +79,11 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Duplicate Scripts: CLONE AND ABSTRACTION ANALYSIS ON SCRATCH PROJECTS',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Given the JSON file within Scratch file formats (.SB3), the goal is to choose and collect the relevant attributes of each Sprite, process this information with a clustering algorithm, and give statistical and informative feedback on both intra-sprite and project-level duplicity.',
+      imageUrl: '',
+      link: 'https://github.com/felipsandoval/duplicatescripts-scratch',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
@@ -132,12 +125,6 @@ const config = {
       'synthwave',
       'retro',
       'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
       'pastel',
       'fantasy',
       'wireframe',

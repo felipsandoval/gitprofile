@@ -60,7 +60,7 @@
 **Features:**
 
 ✓ [Easy to Setup](#-installation--setup)  
-✓ [30 Themes](#themes)  
+✓ [30 Themes](#themes)   
 ✓ [Google Analytics](#google-analytics)  
 ✓ [Hotjar](#hotjar)  
 ✓ [SEO](#seo)  
